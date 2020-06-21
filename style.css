@@ -59,6 +59,11 @@ h2 {
   margin-bottom: 60px;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 
 /********************* all end *********************/
 
@@ -499,7 +504,13 @@ footer .content {
   margin-bottom: 48px;
 }
 
-.info li {
+.info .icon {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+}
+
+.info li a {
   display: flex;
   align-items: center;
   font-size: 36px;
